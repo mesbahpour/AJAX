@@ -1,0 +1,95 @@
+/*Reset Code --*/
+	ol,ul{list-style:none;padding:0;margin:0;}
+	blockquote,q{quotes:none;}
+	blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+	table{border-collapse:collapse;border-spacing:0;}
+	/* start editing from here */
+	a{text-decoration:none;}
+	.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+	nav.vertical ul li{	display:block;}/* vertical menu */
+	nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+
+body{
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	height: 100%;
+	background-color: rgb(1, 36, 56)
+}
+.right_column{
+	background: rgb(48, 61, 170);
+
+}
+#output3 img,.height{
+	height: 100px;
+	width: 200px;
+
+}
+    #name  {
+    
+    	padding: 10px;
+    	font-size: 25px;
+    	font-weight: bold;
+    	color: #fff;
+    }
+    #nativeName{
+    	margin-top: 30px;
+    }
+
+      #capital,#region,#timezones,#population,#languages,#nativeName,#callingcodes, #wether.icon,#description,#wind,#temp,#humidity,#visibility  {
+    
+ 
+    	font-size:15px;
+    	font-weight: bold;
+    	color: #fff;
+    }
+
+     span{
+    	color: yellow;
+    	font-size: 15px;
+    }
+
+ 
+
+
+
+     #weatherBody{
+     	padding: :10px;
+    	font-size:15px;
+    	font-weight: bold;
+    	color: darkblue;
+
+     }
+
+     .information ul li {
+	width: 74%;
+	margin: 0 auto;
+	line-height: 39px;
+	border-width: thin;
+	color: #EEE;
+	font-weight: 600;
+	
+	
+}
+#temp a{
+	font-size: 70px;
+
+}
+#weatherTemp{
+	font-family: 'Raleway', sans-serif;
+	font-size: 70px;
+	font-weight: 100;
+	float: right;
+	margin-top: 300px;
+}
+
+img{
+	width: 100px;
+}
